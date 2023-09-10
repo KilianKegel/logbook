@@ -1,6 +1,6 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
-## log
+## logbook 
 * **2023-09-10**
   * update [CdePkg](https://github.com/KilianKegel/CdePkg) – C Development Environment Package for EDK2 and derived BIOS products
   * update [Visual-ACPICA-for-UEFI-Shell](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-Shell) – ACPI CA (ACPI component architecture) reference implementation for UEFI, using Visual Studio 2022 build environment

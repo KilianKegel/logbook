@@ -1,6 +1,12 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 ## logbook 
+* **2023-10-15**
+  * Creation [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell) – TSCSync - TimeStampCounter (TSC) synchronizer, analyze System Timer characteristics
+  * update [Toro C Library](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
+  * update all dependencies
+* **2023-09-17**
+  * Creation [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL) – Build UEFI SHELL binary from latest available EDK2 release tag
 * **2023-09-16**
   * update [CdePkg](https://github.com/KilianKegel/CdePkg) – C Development Environment Package for EDK2 and derived BIOS products
   * update [Toro C Library](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
@@ -18,6 +24,7 @@
 * **2023-05-01** Create new project: [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL#edk2-uefi-shell--visual-uefi-shell). Build UEFI SHELL binary from latest available EDK2 release tag
 
 ## Project container
+[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell)](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Visual-Studio-for-UEFI-Shell#visual-studio-for-uefi-shell)](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell#visual-studio-for-uefi-shell)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Visual-UEFI-SHELL#edk2-uefi-shell--visual-uefi-shell)](https://github.com/KilianKegel/Visual-UEFI-SHELL#edk2-uefi-shell--visual-uefi-shell)

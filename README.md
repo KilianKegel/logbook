@@ -1,6 +1,16 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 ## logbook 
+* **2023-10-29**
+  * update YOUTUBE appearance: https://www.youtube.com/@kiliankegel4598
+  * update [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL) – Build UEFI SHELL binary from latest available EDK2 release tag
+    * add **PCIView** plugin
+    * https://www.youtube.com/watch?v=wXTQ_wsKwHw
+  * update [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell) – TSCSync - TimeStampCounter (TSC) synchronizer, analyze System Timer characteristics
+    * improvement, *BETA RELEASE*
+    * add **/METHOD:TIANO/ACPI/PIT** to select ACPI/PIT(i8254) or original *tianocore* calibration method
+    * CONFIG Menu shows true timing values, instead of ACPI clock numbers
+    * https://www.youtube.com/watch?v=I92emFEyTDI
 * **2023-10-15**
   * Creation [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell) – TSCSync - TimeStampCounter (TSC) synchronizer, analyze System Timer characteristics
   * update [Toro C Library](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)

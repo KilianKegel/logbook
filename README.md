@@ -7,7 +7,7 @@
     * add 10000kHz digit rounding, e.g.
         * 1995379567 is rounded to 1995380000
         * 1995371234 is rounded to 1995370000
-
+ * convert [Visual-ACPICA-for-UEFI-Shell](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE) to [**PORTABLE MODEL**](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE#20240113)
 * **2024-01-07**
   * update [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL) – add [my-legacy-toolbox](https://github.com/tianocore/edk2-staging/blob/CdePkg/blogs/2021-11-14/README.md#my-legacy-toolbox) to internal PLUGIN command set
 * **2024-01-06**

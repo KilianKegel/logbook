@@ -1,6 +1,13 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
-## logbook 
+## logbook
+* **2024-01-13**
+  * introduce **portable** requirements for upcoming projects and updates [Howto-setup-a-UEFI-Development-PC](https://github.com/KilianKegel/Howto-setup-a-UEFI-Development-PC#preparation-for-upcoming-portable-projects)
+  * improve to [Visual-TSCSync-for-UEFI-Shell – v1.2.3 Build 8](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell)
+    * add 10000kHz digit rounding, e.g.
+        * 1995379567 is rounded to 1995380000
+        * 1995371234 is rounded to 1995370000
+
 * **2024-01-07**
   * update [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL) – add [my-legacy-toolbox](https://github.com/tianocore/edk2-staging/blob/CdePkg/blogs/2021-11-14/README.md#my-legacy-toolbox) to internal PLUGIN command set
 * **2024-01-06**

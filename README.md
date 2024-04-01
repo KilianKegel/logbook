@@ -1,6 +1,12 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 ## logbook
+* **2024-04-01**
+  * improve [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell)
+* **2024-03-24**
+  * add SMBIOS support to [Visual-LIBWIN32-for-UEFI](https://github.com/KilianKegel/Visual-LIBWIN32-for-UEFI?tab=readme-ov-file#20240324)
+* **2024-03-09**
+  * add POSIX functions to  [Visual-TORO-C-LIBRARY-for-UEFI](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20240309-v081-build-54)
 * **2024-02-25**
   * update [Visual-UEFI-SHELL v1.5.0 Build 23](https://github.com/KilianKegel/Visual-UEFI-SHELL) to [edk2-stable202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
   * introduce [EDK2-LIBC-AppDevelPORTABLE](https://github.com/KilianKegel/EDK2-LIBC-AppDevelPORTABLE)

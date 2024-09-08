@@ -1,6 +1,9 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 ## logbook
+* **2024-09-08**
+ * improve [Toro C Library](https://github.com/KilianKegel/toro-C-Library/blob/master/README.md#20240908-v086-build-187)<br>
+   `system()` call on **UEFI Shell** now also working with output redirection.
 * **2024-05-05**
   * add POST and EDK2-EMULATOR related bug fixes to  [Visual-TORO-C-LIBRARY-for-UEFI](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20240505-v084-build-91) and [Toro C Library](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20240505-v084-build-91)
 * **2024-04-01**

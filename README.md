@@ -2,7 +2,7 @@
 
 ## logbook
 * **2024-10-13**
- * improve [Toro C Library](https://github.com/KilianKegel/toro-C-Library/blob/master/README.md#20240908-v086-build-187)<br>
+ * improve [Toro C Library](https://github.com/KilianKegel/toro-C-Library/blob/master/README.md#20241013-v087-build-200)<br>
     * fixed: removed  disassembled math function wasn't replaced by extracted intrinsic 
     math function from Microsoft **LIBCMT.LIB**:
         * `ftol3.obj`

@@ -2,8 +2,15 @@
 
 ## logbook
 * **2024-10-27**
-   * update [Visual-ACPICA-for_UEFI](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)<br>
-     to [**ACPI CA v20240927**](https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/download.html)
+   * update [Visual-ACPICA-for_UEFI](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell) to [**ACPI CA v20240927**](https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/download.html)
+   * integrate **ACPI CA** tools into [**Visual-UEFI-Shell**](https://github.com/KilianKegel/Visual-UEFI-SHELL?tab=readme-ov-file#edk2-uefi-shell--toro-uefi-shell):
+    * `AslCompiler` 
+	  * `AcpiDump`
+	  * `AcpiBin`
+	  * `AcpiExec`
+	  * `AcpiHelp`
+	  * `AcpiSrc`
+	  * `AcpiXtract` 
 * **2024-10-13**
  * improve [Toro C Library](https://github.com/KilianKegel/toro-C-Library/blob/master/README.md#20241013-v087-build-200)<br>
     * fixed: removed  disassembled math function wasn't replaced by extracted intrinsic 

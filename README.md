@@ -1,6 +1,11 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 ## logbook
+* **2025-02-23**
+  *  rename **Visual-UEFI-SHELL** to **UEFI-SHELL-binary-source-and-build-environment**
+  * update [**Visual-UEFI-SHELL v1.202502.0 Build 70**](https://github.com/KilianKegel/UEFI-SHELL-binary-source-and-build-environment) to [edk2-stable202502](https://github.com/tianocore/edk2/releases/tag/edk2-stable202502)
+  * fix build error with **Windows SDK 10.0.26100.0** [**Visual-TORO-C-LIBRARY-for-UEFI**](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250222-v089-build-231)<br>
+
 * **2024-10-27**
    * update [Visual-ACPICA-for_UEFI](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell) to [**ACPI CA v20240927**](https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/download.html)
    * integrate **ACPI CA** tools into [**Visual-UEFI-Shell**](https://github.com/KilianKegel/Visual-UEFI-SHELL?tab=readme-ov-file#edk2-uefi-shell--toro-uefi-shell):

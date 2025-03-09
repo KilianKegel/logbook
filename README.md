@@ -1,6 +1,59 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 ## logbook
+* **2025-03-09**
+ * improve [Toro C Library](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20250309-v090-build-243)<br>
+     #### finalize MATH.H implementation
+    The architecture of this math library introduces a space optimized implementation of C's MATH.H functions,
+    while keeping precision and correctness as good as already known in earlier x87-based math libraries.<BR>
+    Since the traditional math coprocessor 80387 is still present in current x86 processors and is also not deprecated
+    in the [X86S specification](https://www.intel.com/content/www/us/en/developer/articles/technical/envisioning-future-simplified-architecture.html) [.PDF](https://github.com/KilianKegel/4KPages-TechDocs/blob/main/x86s-eas-external-1.1.pdf),
+    it can be used here.<br><br>
+    The 80387 processor has various improvements over its 8087 predecessor, such as<br>
+      * range extension for transcendental function:
+
+        | Instruction  | function           |
+        |--------------|--------------------|
+        |FPTAN         | Partial tangent    |
+        |FPATAN        | Partial arctangent |
+        |F2XM1         | 2^X - 1            |
+        |FYL2X         | Y * log2X          |
+        |FYL2XP        |Y*log2(X + 1)       |
+    
+    * new instructions, e.g.
+
+        | Instruction  | function                 |
+        |--------------|--------------------------|
+        |FXAM          |  Examine Floating-Point  |
+        |FSIN          | sine                     |
+        |FCOS          | cosine                   |
+
+    * That has reduced the programming effort dramatically and made algorithms very simple and easy to implement.<br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/KL_intel_i387DX.jpg" width="200"/>
+        * [`acos()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/acos.c)
+        * [`asin()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/asin.c)
+        * [`atan()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/atan.c)
+        * [`atan2()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/atan2.c)
+        * [`ceil()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/ceil.c)
+        * [`cos()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/cos.c)
+        * [`cosh()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/cosh.c)
+        * [`exp()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/exp.c)
+        * [`fabs()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/fabs.c)
+        * [`floor()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/floor.c)
+        * [`fmod()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/fmod.c)
+        * [`frexp()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/frexp.c)
+        * [`ldexp()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/ldexp.c)
+        * [`log()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/log.c)
+        * [`log10()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/log10.c)
+        * [`modf()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/modf.c)
+        * [`pow()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/pow.c)
+        * [`sin()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/sin.c)
+        * [`sinh()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/sinh.c)
+        * [`sqrt()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/sqrt.c)
+        * [`tan()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/tan.c)    
+        * [`tanh()`](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/blob/main/toroCLibrary/Library/math_h/tanh.c)
+
+
 * **2025-02-23**
   *  rename **Visual-UEFI-SHELL** to **UEFI-SHELL-binary-source-and-build-environment**
   * update [**Visual-UEFI-SHELL v1.202502.0 Build 70**](https://github.com/KilianKegel/UEFI-SHELL-binary-source-and-build-environment) to [edk2-stable202502](https://github.com/tianocore/edk2/releases/tag/edk2-stable202502)
